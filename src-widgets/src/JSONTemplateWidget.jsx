@@ -19,7 +19,7 @@ class JSONTemplateWidget extends (window.visRxWidget || VisRxWidget) {
             id: 'tplJSONTemplateWidget',
             visSet: 'vis-2-widgets-ovarious',
             visSetLabel: 'vis_2_jsontemplatewidget',
-            visName: 'JSON Widget', // Name of widget
+            visName: 'DeprecatedJSON Widget', // Name of widget
             visAttrs: [
                 {
                     name: 'common', // group name

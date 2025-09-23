@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "vis-2-widgets-ovarious",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "news": {
+      "1.0.1": {
+        "en": "mark JSON Template widget as deprecated. please use widgets from new adapter vis-jsontemplate\nthe complete adapter is going to be deprecated",
+        "de": "marke JSON Vorlage Widget als deprecated. Bitte verwenden Sie Widgets von neuem Adapter vis-jsontemplate\nder komplette adapter wird abgeschrieben",
+        "ru": "марк Джон Шаблон виджет как устаревший. Используйте виджеты от нового адаптера vis-jsontemplate\nполный адаптер будет обесценен",
+        "pt": "marcar JSON Elemento do modelo como obsoleto. por favor use widgets do novo adaptador vis- jsontemplate\no adaptador completo vai ficar obsoleto",
+        "nl": "mark JSON Sjabloon widget als verouderd. Gebruik widgets van nieuwe adapter vis-jsentemplate\nde complete adapter wordt verouderd",
+        "fr": "marque JSON Le widget modèle est déprécié. s'il vous plaît utiliser des widgets de nouveau adaptateur vis-jsontemplate\nl'adaptateur complet va être déprécié",
+        "it": "marco JSON Template widget come deprecato. si prega di utilizzare widget da nuovo adattatore vis-jsontemplate\nl'adattatore completo sarà deprecato",
+        "es": "mark JSON El widget de plantilla como deprecatado. por favor use widgets de nuevo adaptador vis-jsontemplate\nel adaptador completo va a ser deprecado",
+        "pl": "mark JSON Widget szablonu jako zdepretowany. Proszę użyć widżetów z nowego adaptera vis- jsonszablon\nkompletny adapter zostanie zdepregowany",
+        "uk": "марка JSON Шаблонний віджет як відхилений. Будь ласка, використовуйте віджети з нового адаптера vis-jsontemplate\nповний адаптер буде депресовано",
+        "zh-cn": "标记 JSON 模板部件已贬值 。 请使用新适配器的部件 \n完全适配器将会贬值"
+      },
       "1.0.0": {
         "en": "add package @alcalzone/release-script-plugin-manual-review as requested\nadd async/await feature to the JSON template widget",
         "de": "paket hinzufügen @alcalzone/release-script-plugin-manual-review wie gewünscht\nfügen Sie async/await Funktion in das JSON Template Widget hinzu",
@@ -80,19 +93,6 @@
         "pl": "dodaj ikonę\ndodać dokumentację",
         "uk": "додати іконку\nдокументи",
         "zh-cn": "添加图标\n添加文档"
-      },
-      "0.1.2": {
-        "en": "prepare release",
-        "de": "veröffentlichung vorbereiten",
-        "ru": "подготовка к выпуску",
-        "pt": "preparar a liberação",
-        "nl": "de release voorbereiden",
-        "fr": "préparer la libération",
-        "it": "preparare il rilascio",
-        "es": "preparar la liberación",
-        "pl": "przygotować zwolnienie",
-        "uk": "підготовка релізу",
-        "zh-cn": "准备释放"
       }
     },
     "titleLang": {
@@ -133,6 +133,47 @@
       "type": "free",
       "license": "MIT"
     },
+    "messages": [
+      {
+        "condition": {
+          "operand": "and",
+          "rules": [
+            "oldVersion<1.0.0",
+            "newVersion>=1.0.1"
+          ]
+        },
+        "title": {
+          "en": "JSON template widgets deprecated",
+          "de": "JSON-Vorlagen-Widgets veraltet",
+          "ru": "Виджеты шаблонов JSON устарели",
+          "pt": "Widgets modelo JSON obsoletos",
+          "nl": "Widgets voor JSON-sjablonen zijn verouderd",
+          "fr": "Modèles de widgets JSON obsolètes",
+          "it": "widget modello JSON obsoleti",
+          "es": "Los widgets de plantillas JSON están en desuso",
+          "pl": "Widżety szablonów JSON przestarzałe",
+          "uk": "Віджети шаблонів JSON застаріли",
+          "zh-cn": "已弃用 JSON 模板控件"
+        },
+        "text": {
+          "en": "Please use adapter vis-jsontemplate.",
+          "de": "Bitte Adapter vis-jsontemplate.",
+          "ru": "Пожалуйста, используйте адаптер vis-jsontemplate.",
+          "pt": "Use o adaptador vis-jsontemplate.",
+          "nl": "Gebruik alstublieft de adapter ten opzichte van het json-sjabloon.",
+          "fr": "Utilisez l'adaptateur vis-jsontemplate.",
+          "it": "Usi adattatore vis-jsontemplate.",
+          "es": "Utilice el adaptador vis-jsontemplate.",
+          "pl": "Proszę użyć adaptera vis-jsontemplate.",
+          "uk": "Будь ласка, використовуйте адаптер vis-jsontemplate.",
+          "zh-cn": "请使用适配器 vis-jsonTemplate。"
+        },
+        "buttons": [
+          "agree"
+        ],
+        "level": "info"
+      }
+    ],
     "tier": 3,
     "platform": "Javascript/Node.js",
     "icon": "vis-2-widgets-ovarious.png",

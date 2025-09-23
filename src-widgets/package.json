@@ -1,7 +1,7 @@
 {
     "name": "iobroker.vis-2-widgets-ovarious",
     "private": true,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "devDependencies": {
         "@iobroker/adapter-dev": "^1.3.0"
     },
