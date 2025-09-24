@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "vis-2-widgets-ovarious",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "news": {
+      "1.0.2": {
+        "en": "mark JSON Template widget as deprecated. please use widgets from new adapter vis-jsontemplate\nthe complete adapter is going to be deprecated\nfix an react element name",
+        "de": "marke JSON Vorlage Widget als deprecated. Bitte verwenden Sie Widgets von neuem Adapter vis-jsontemplate\nder komplette adapter wird abgeschrieben\nreaktandennamen fixieren",
+        "ru": "марк Джон Шаблон виджет как устаревший. Используйте виджеты от нового адаптера vis-jsontemplate\nполный адаптер будет обесценен\nустановить имя реагирующего элемента",
+        "pt": "marcar JSON Elemento do modelo como obsoleto. por favor use widgets do novo adaptador vis- jsontemplate\no adaptador completo vai ficar obsoleto\ncorrigir um nome de elemento de reação",
+        "nl": "mark JSON Sjabloon widget als verouderd. Gebruik widgets van nieuwe adapter vis-jsentemplate\nde complete adapter wordt verouderd\nfix een reactie element naam",
+        "fr": "marque JSON Le widget modèle est déprécié. s'il vous plaît utiliser des widgets de nouveau adaptateur vis-jsontemplate\nl'adaptateur complet va être déprécié\nfixer un nom d'élément de réaction",
+        "it": "marco JSON Template widget come deprecato. si prega di utilizzare widget da nuovo adattatore vis-jsontemplate\nl'adattatore completo sarà deprecato\nfissare un nome dell'elemento reagire",
+        "es": "mark JSON El widget de plantilla como deprecatado. por favor use widgets de nuevo adaptador vis-jsontemplate\nel adaptador completo va a ser deprecado\nfijar un nombre de elemento de reacción",
+        "pl": "mark JSON Widget szablonu jako zdepretowany. Proszę użyć widżetów z nowego adaptera vis- jsonszablon\nkompletny adapter zostanie zdepregowany\nustaw nazwę elementu reakcji",
+        "uk": "марка JSON Шаблонний віджет як відхилений. Будь ласка, використовуйте віджети з нового адаптера vis-jsontemplate\nповний адаптер буде депресовано\nвиправити ім'я елемента реагатора",
+        "zh-cn": "标记 JSON 模板部件已贬值 。 请使用新适配器的部件 \n完全适配器将会贬值\n固定反应元素名称"
+      },
       "1.0.1": {
         "en": "mark JSON Template widget as deprecated. please use widgets from new adapter vis-jsontemplate\nthe complete adapter is going to be deprecated",
         "de": "marke JSON Vorlage Widget als deprecated. Bitte verwenden Sie Widgets von neuem Adapter vis-jsontemplate\nder komplette adapter wird abgeschrieben",
@@ -80,19 +93,6 @@
         "pl": "naprawić rzeczy z sprawdzania adaptera",
         "uk": "виправити речі з адаптера",
         "zh-cn": "从适配器检查器中校正一些东西"
-      },
-      "0.1.3": {
-        "en": "add icon\nadd documentation",
-        "de": "icon hinzufügen\ndokumentation hinzufügen",
-        "ru": "добавить\nдобавить документацию",
-        "pt": "adicionar ícone\nadicionar documentação",
-        "nl": "pictogram toevoegen\ndocumentatie toevoegen",
-        "fr": "ajouter l'icône\najouter la documentation",
-        "it": "aggiungere icona\naggiungere documentazione",
-        "es": "añadir icono\nañadir documentación",
-        "pl": "dodaj ikonę\ndodać dokumentację",
-        "uk": "додати іконку\nдокументи",
-        "zh-cn": "添加图标\n添加文档"
       }
     },
     "titleLang": {
