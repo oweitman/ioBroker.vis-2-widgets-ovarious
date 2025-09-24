@@ -1,6 +1,6 @@
 {
   "name": "iobroker.vis-2-widgets-ovarious",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ioBroker vis-2 widgets for adapter ovarious",
   "author": "oweitman <oweitman@gmx.de>",
   "contributors": [

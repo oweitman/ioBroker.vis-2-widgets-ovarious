@@ -20,4 +20,4 @@ function InnerHTML({ html, dangerouslySetInnerHTML, allowRerender, ...rest }) {
     return createElement('div', { ...rest, ref: divRef });
 }
 
-module.exports = InnerHTML;
+export default InnerHTML;

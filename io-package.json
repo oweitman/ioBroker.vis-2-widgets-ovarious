@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "vis-2-widgets-ovarious",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "news": {
-      "1.0.2": {
+      "1.0.3": {
         "en": "mark JSON Template widget as deprecated. please use widgets from new adapter vis-jsontemplate\nthe complete adapter is going to be deprecated\nfix an react element name",
         "de": "marke JSON Vorlage Widget als deprecated. Bitte verwenden Sie Widgets von neuem Adapter vis-jsontemplate\nder komplette adapter wird abgeschrieben\nreaktandennamen fixieren",
         "ru": "марк Джон Шаблон виджет как устаревший. Используйте виджеты от нового адаптера vis-jsontemplate\nполный адаптер будет обесценен\nустановить имя реагирующего элемента",
@@ -15,19 +15,6 @@
         "pl": "mark JSON Widget szablonu jako zdepretowany. Proszę użyć widżetów z nowego adaptera vis- jsonszablon\nkompletny adapter zostanie zdepregowany\nustaw nazwę elementu reakcji",
         "uk": "марка JSON Шаблонний віджет як відхилений. Будь ласка, використовуйте віджети з нового адаптера vis-jsontemplate\nповний адаптер буде депресовано\nвиправити ім'я елемента реагатора",
         "zh-cn": "标记 JSON 模板部件已贬值 。 请使用新适配器的部件 \n完全适配器将会贬值\n固定反应元素名称"
-      },
-      "1.0.1": {
-        "en": "mark JSON Template widget as deprecated. please use widgets from new adapter vis-jsontemplate\nthe complete adapter is going to be deprecated",
-        "de": "marke JSON Vorlage Widget als deprecated. Bitte verwenden Sie Widgets von neuem Adapter vis-jsontemplate\nder komplette adapter wird abgeschrieben",
-        "ru": "марк Джон Шаблон виджет как устаревший. Используйте виджеты от нового адаптера vis-jsontemplate\nполный адаптер будет обесценен",
-        "pt": "marcar JSON Elemento do modelo como obsoleto. por favor use widgets do novo adaptador vis- jsontemplate\no adaptador completo vai ficar obsoleto",
-        "nl": "mark JSON Sjabloon widget als verouderd. Gebruik widgets van nieuwe adapter vis-jsentemplate\nde complete adapter wordt verouderd",
-        "fr": "marque JSON Le widget modèle est déprécié. s'il vous plaît utiliser des widgets de nouveau adaptateur vis-jsontemplate\nl'adaptateur complet va être déprécié",
-        "it": "marco JSON Template widget come deprecato. si prega di utilizzare widget da nuovo adattatore vis-jsontemplate\nl'adattatore completo sarà deprecato",
-        "es": "mark JSON El widget de plantilla como deprecatado. por favor use widgets de nuevo adaptador vis-jsontemplate\nel adaptador completo va a ser deprecado",
-        "pl": "mark JSON Widget szablonu jako zdepretowany. Proszę użyć widżetów z nowego adaptera vis- jsonszablon\nkompletny adapter zostanie zdepregowany",
-        "uk": "марка JSON Шаблонний віджет як відхилений. Будь ласка, використовуйте віджети з нового адаптера vis-jsontemplate\nповний адаптер буде депресовано",
-        "zh-cn": "标记 JSON 模板部件已贬值 。 请使用新适配器的部件 \n完全适配器将会贬值"
       },
       "1.0.0": {
         "en": "add package @alcalzone/release-script-plugin-manual-review as requested\nadd async/await feature to the JSON template widget",
