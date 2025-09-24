@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 // import { I18n } from '@iobroker/adapter-react-v5';
 import { VisRxWidget } from '@iobroker/vis-2-widgets-react-dev';
 import VisEJSAttibuteField from './Components/VisEJSAttibuteField.tsx';
-import InnerHtml from './Components/InnerHTML.jsx';
+import InnerHTML from './Components/InnerHTML.jsx';
 
 const ejs = require('ejs');
 
@@ -196,7 +196,7 @@ class JSONTemplateWidget extends (window.visRxWidget || VisRxWidget) {
         //     text = text.replace(/ /gm, '&nbsp;');
         //     text = `<code style="color:red;">${text}</code>`;
         // }
-        return <InnerHtml html={this.renderText || ' '} />;
+        return <InnerHTML html={this.renderText || ' '} />;
     }
 }
 JSONTemplateWidget.propTypes = {
