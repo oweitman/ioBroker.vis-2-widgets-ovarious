@@ -100,7 +100,6 @@ class JSONTemplateWidget extends (window.visRxWidget || VisRxWidget) {
 
     // eslint-disable-next-line class-methods-use-this
     async propertiesUpdate() {
-        debugger;
         // Widget has 3 important states
         // 1. this.state.values - contains all state values, that are used in widget (automatically collected from widget info).
         //                        So you can use `this.state.values[this.state.rxData.oid + '.val']` to get value of state with id this.state.rxData.oid
@@ -120,7 +119,7 @@ class JSONTemplateWidget extends (window.visRxWidget || VisRxWidget) {
                 }
             }
 
-            template = data?.template || '';
+            template = data?.template || JSONTemplateWidget.t('vis_2_widgets_json_widget_deprecated');
             this.renderText =
                 (await ejs.render(
                     template,

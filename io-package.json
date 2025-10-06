@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "vis-2-widgets-ovarious",
-    "version": "1.0.3",
+    "version": "2.0.0",
     "news": {
-      "1.0.3": {
+      "2.0.0": {
         "en": "mark JSON Template widget as deprecated. please use widgets from new adapter vis-jsontemplate\nthe complete adapter is going to be deprecated\nfix an react element name",
         "de": "marke JSON Vorlage Widget als deprecated. Bitte verwenden Sie Widgets von neuem Adapter vis-jsontemplate\nder komplette adapter wird abgeschrieben\nreaktandennamen fixieren",
         "ru": "марк Джон Шаблон виджет как устаревший. Используйте виджеты от нового адаптера vis-jsontemplate\nполный адаптер будет обесценен\nустановить имя реагирующего элемента",

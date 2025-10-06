@@ -6,5 +6,6 @@
     "vis_2_widgets_json_datapointsgroup": "Навігація",
     "vis_2_widgets_json_datapoints_oid": "Ідентифікатор даних",
     "vis_2_widgets_json_widget_title": "Налаштування шаблонів",
-    "vis_2_widgets_json_widget_save": "Зберегти"
+    "vis_2_widgets_json_widget_save": "Зберегти",
+    "vis_2_widgets_json_widget_deprecated": "Цей віджет розшифровується. Будь ласка, використовуйте адаптер vis-jsontemplate."
 }

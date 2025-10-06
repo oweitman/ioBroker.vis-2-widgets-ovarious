@@ -6,5 +6,6 @@
     "vis_2_widgets_json_datapointsgroup": "Ponto de vista",
     "vis_2_widgets_json_datapoints_oid": "ID de dataponto",
     "vis_2_widgets_json_widget_title": "Edição de modelo",
-    "vis_2_widgets_json_widget_save": "Salvar"
+    "vis_2_widgets_json_widget_save": "Salvar",
+    "vis_2_widgets_json_widget_deprecated": "Este elemento está obsoleto. Por favor, use o adaptador vis-jsontemplate."
 }

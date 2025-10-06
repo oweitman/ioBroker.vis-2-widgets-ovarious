@@ -6,5 +6,6 @@
     "vis_2_widgets_json_datapointsgroup": "Datapoint",
     "vis_2_widgets_json_datapoints_oid": "Identyfikator daty",
     "vis_2_widgets_json_widget_title": "Edycja szablonu",
-    "vis_2_widgets_json_widget_save": "Zapisz"
+    "vis_2_widgets_json_widget_save": "Zapisz",
+    "vis_2_widgets_json_widget_deprecated": "Ten widget jest przestarzały. Proszę użyć adaptera vis- jsonszablon."
 }

@@ -6,5 +6,6 @@
     "vis_2_widgets_json_datapointsgroup": "Daten",
     "vis_2_widgets_json_datapoints_oid": "Datenpunkt-ID",
     "vis_2_widgets_json_widget_title": "Vorlage bearbeiten",
-    "vis_2_widgets_json_widget_save": "Speichern"
+    "vis_2_widgets_json_widget_save": "Speichern",
+    "vis_2_widgets_json_widget_deprecated": "Dieses Widget ist veraltet. Bitte verwenden Sie Adapter vis-jsontemplate."
 }

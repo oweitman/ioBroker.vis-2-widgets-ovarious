@@ -6,5 +6,6 @@
     "vis_2_widgets_json_datapointsgroup": "Datapoint",
     "vis_2_widgets_json_datapoints_oid": "ID Datapoint",
     "vis_2_widgets_json_widget_title": "Modifica modello",
-    "vis_2_widgets_json_widget_save": "Salva"
+    "vis_2_widgets_json_widget_save": "Salva",
+    "vis_2_widgets_json_widget_deprecated": "Questo widget è deprecato. Si prega di utilizzare adattatore vis-jsontemplate."
 }
