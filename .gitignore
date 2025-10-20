@@ -12,3 +12,6 @@ tmp/
 .vscode/info.txt
 .vscode/secrets.txt
 .vscode/Recording*
+
+#ignore .commitinfo created by ioBroker release script
+.commitinfo
