@@ -226,6 +226,8 @@ data.oneobject.attribute1 = 1 data.oneobject.attribute2 = 2
 
 - initial Release
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 
 The MIT License (MIT)
